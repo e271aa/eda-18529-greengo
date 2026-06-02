@@ -2,7 +2,7 @@
 
 Projeto académico desenvolvido no âmbito da cadeira de **Estruturas de Dados Avançadas (EDA)**.
 
-Sistema completo de gestão para uma empresa de mobilidade elétrica fictícia, permitindo gerir meios de transporte, clientes, aluguéis e otimizar rotas através de algoritmos de grafos.
+Sistema completo de gestão para uma empresa de mobilidade elétrica fictícia, permitindo gerir meios de transporte, clientes, alugueres e otimizar rotas através de algoritmos de grafos.
 
 ## Funcionalidades Principais
 
@@ -13,12 +13,12 @@ Sistema completo de gestão para uma empresa de mobilidade elétrica fictícia, 
 
 ### Gestão de Clientes
 - Registar, atualizar e remover clientes
-- Consultar histórico de aluguéis por cliente
+- Consultar histórico de alugueres por cliente
 - Validação de dados de contacto
 
 ### Sistema de Aluguéis
-- Criar e gerir aluguéis de veículos
-- Rastrear status de aluguéis ativo/completo
+- Criar e gerir alugueres de veículos
+- Rastrear estado de alugueres ativo/completo
 - Cálculo automático de custos
 
 ### Otimização de Rotas
@@ -53,7 +53,7 @@ eda-18529-greengo/
 │   ├── main.c            # Programa principal e menus interativos
 │   ├── meio.c            # Gestão de meios de transporte
 │   ├── cliente.c         # Gestão de clientes
-│   ├── aluguer.c         # Sistema de aluguéis
+│   ├── aluguer.c         # Sistema de alugueres
 │   ├── grafo.c           # Implementação de grafos para rotas
 │   ├── gestor.c          # Autenticação e administração
 │   └── tools.c           # Funções auxiliares e utilitários
@@ -118,7 +118,7 @@ Após iniciar, utilize:
 - Algoritmos de otimização de rotas
 
 #### `aluguer.c` (353 linhas)
-- Lógica de aluguéis
+- Lógica de alugueres
 - Cálculo de custos
 
 #### Módulos suplementares
@@ -133,7 +133,7 @@ O projeto utiliza ficheiros de persistência armazenados na pasta `db/` para man
 ## Versões
 
 - **Versão Pilot:** [eda-18529-greengo-pilot](https://github.com/e271aa/eda-18529-greengo-pilot) — Versão inicial com listas ligadas básicas
-- **Versão Final:** [eda-18529-greengo](https://github.com/e271aa/eda-18529-greengo) — Versão completa com grafos, otimização e sistema de aluguéis
+- **Versão Final:** [eda-18529-greengo](https://github.com/e271aa/eda-18529-greengo) — Versão completa com grafos, otimização e sistema de alugueres
 
 ---
 
