@@ -6,27 +6,27 @@ Sistema completo de gestão para uma empresa de mobilidade elétrica fictícia, 
 
 ## Funcionalidades Principais
 
-### 🚗 Gestão de Meios de Transporte
+### Gestão de Meios de Transporte
 - Inserir, remover e listar meios de mobilidade elétrica
 - Acompanhar bateria e autonomia de cada veículo
 - Persistência de dados em base de dados
 
-### 👥 Gestão de Clientes
+### Gestão de Clientes
 - Registar, atualizar e remover clientes
 - Consultar histórico de aluguéis por cliente
 - Validação de dados de contacto
 
-### 🔄 Sistema de Aluguéis
+### Sistema de Aluguéis
 - Criar e gerir aluguéis de veículos
 - Rastrear status de aluguéis ativo/completo
 - Cálculo automático de custos
 
-### 📊 Otimização de Rotas
+### Otimização de Rotas
 - Implementação de **grafos** para análise de rotas
 - Algoritmos de otimização de trajetos entre pontos
 - Suporte para cálculo de distâncias
 
-### 🔐 Autenticação
+### Autenticação
 - Sistema de login para administradores
 - Controlo de acesso às funcionalidades
 
